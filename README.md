@@ -6,8 +6,10 @@
 
 
 
-* **Linux/Mac**
-
+* **Linux/Mac (Or GitBash)**
+> Can run above in GitBash if in Windows.
+> Install make via installing [chocolatey](https://chocolatey.org/install),
+> and installing make via `choco install make`
 
     Run following commands in terminal/powershell:
 
@@ -17,10 +19,11 @@
     ```
 
 * **Windows**
-```sh
-docker compose build
-docker compose up
-```
+
+    ```sh
+    docker compose build
+    docker compose up
+    ```
 
 You will be instructed in the terminal to go to [http://127.0.0.1:8888/lab]
 
